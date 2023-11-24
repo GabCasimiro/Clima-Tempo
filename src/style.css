@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Mukta&family=Nunito+Sans:opsz@6..12&family=Poppins&family=Ubuntu&display=swap');
+
+:root{
+    --cor-Branca: rgb(255, 255, 255);
+    --cor-Cinza: rgb(125, 125, 125);
+    --cor-azul: rgb(0, 0, 255);
+    --cor-azulClaro: rgb(0, 136, 255);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./img/visao-3d-do-planeta-terra.jpg);
+    background-position: center;
+    background-size: cover;
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background: transparent;
+    border: 3px solid var(--cor-azul);
+    backdrop-filter: blur(30px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25rem;
+    width: 30rem;
+    padding: 1rem;
+}
+.logo{
+    font-family: 'ubuntu',sans-serif;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.logo span{
+    color: var(--cor-azulClaro);
+}
+.inputBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 90%;
+    margin-top: 2rem;
+    padding: 10px;
+    height: 2.5rem;
+    box-shadow: 0px 0px 5px var(--cor-azulClaro);
+    border-radius: 15px;
+    
+
+    
+}
+.inputBox input{
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    background: none;
+    border: none;
+    
+    font-size: 22px;
+    border-radius: 15px;
+    outline: none;
+}
+.inputBox button{
+    color: #ffffff;
+    background: none;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.inputBox button:hover{
+    color: var(--cor-azulClaro);
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+hr{
+    
+    margin-top: 1rem;
+    width: 100%;
+    
+}
+.cityName{
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'nunito',sans-serif;
+}
+.cityName p{
+    color: #fff;
+}
+.grausC{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 100%;
+    color: #ffffff;
+    gap: 3rem;
+
+}
+.grausC p{
+    font-family: 'nunita',sans-serif;
+    font-size: 25px;
+}
+
+
+
+.nuvensClima{
+    margin-top: 2rem;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    
+    font-family: 'nunito',sans-serif;
+    font-size: 20px;
+}
+img{
+    height: 60px;
+}
+    
+
+
+    
+
+#tempMaxeMin{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 2rem;
+}
+#tempMaxeMin p{
+    color: #fff;
+    text-align: center;
+
+    font-family: 'nunito',sans-serif;
+}

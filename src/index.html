@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Clima Tempo</title>
+</head>
+<body>
+   
+    <div class="container">
+        <h1 class="logo">Clima Tempo | <span>Dev Gabriel</span> </h1>
+        
+        <div class="inputBox">
+            <input id="inputCity" type="text" placeholder="Selecione uma Cidade" value="Diadema">
+            <button onclick="btnSearch()" id="btn-search"><i class="fa-solid fa-magnifying-glass" title="procurar"></i></button>
+        </div>
+        <div class="cityName">
+            <p id="resultTemp"></p>
+        </div>
+    </div>
+        
+
+        
+    
+    <script src="./main.js"></script>
+</body>
+</html>
